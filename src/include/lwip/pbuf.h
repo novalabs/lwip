@@ -170,6 +170,14 @@ struct pbuf {
    * the stack itself, or pbuf->next pointers from a chain.
    */
   u16_t ref;
+
+#if LWIP_PTP
+  /**
+   * timestamp of tx/rx
+   */
+  s32_t time_sec;
+  s32_t time_nsec;
+#endif
 };
 
 
