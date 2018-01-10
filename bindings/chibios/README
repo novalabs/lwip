@@ -1,0 +1,2 @@
+The content of this folder comes from the original ChibiOS bindings.
+It has been copied here so we can change LWIP version without affecting ChibiOS source tree.
